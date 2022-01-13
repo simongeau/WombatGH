@@ -147,6 +147,9 @@ namespace WombatGH
                 case ".OBJ":
                     script = $"-_Export \"{exportPath}\" _Enter _Enter _Enter";
                     break;
+                case ".STL":
+                    script = $"-_Export \"{exportPath}\" _Enter";
+                    break;
                 case ".AI":
                 case ".3DS":
                 case ".FBX":
